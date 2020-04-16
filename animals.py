@@ -5,6 +5,7 @@ Duck = Animal(animaltype = "duck")
 Duck.legs = 2
 Duck.arms = 2
 Duck.eyes = 2
+Duck.greet("Quack!")
 Duck.describe()
 
 print("From the Person class:")

@@ -6,8 +6,8 @@ class Animal:
 		self.arms = arms
 		self.eyes = eyes
 
-	def greet(self, greeting = ""):
-		pass
+	def greet(self, greeting = "..."):
+		print("{}".format(greeting))
 
 	def describe(self):
 		name = self.name
